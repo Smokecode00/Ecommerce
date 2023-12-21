@@ -13,16 +13,16 @@
             <a href="#" class="navbar-brand fw-semibold">ECOMMERCE</a>
             <ul class="nav me-2">
                 <li class="nav-item">
-                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">Home</a>
+                    <a href="home.php" class="nav-link fw-semibold text-decoration-none text-black">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">Products</a>
+                    <a href="product.php" class="nav-link fw-semibold text-decoration-none text-black">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">My Cart</a>
+                    <a href="cart.php" class="nav-link fw-semibold text-decoration-none text-black">My Cart</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">Setting</a>
+                    <a href="setting.php" class="nav-link fw-semibold text-decoration-none text-black">Setting</a>
                 </li>
             </ul>
         </div>
