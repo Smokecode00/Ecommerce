@@ -9,6 +9,8 @@ include 'navbar.php';
     <title>Dashboard</title>
 </head>
 <body>
-    <h1 class="text-center text-dark "></h1>
+    <div class="container mt-3">
+        <h2 class="text-center">Home</h2>
+    </div>
 </body>
 </html>
