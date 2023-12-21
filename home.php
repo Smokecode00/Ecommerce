@@ -9,6 +9,6 @@ include 'navbar.php';
     <title>Dashboard</title>
 </head>
 <body>
-    <h1 class="text-center text-dark ">Home</h1>
+    <h1 class="text-center text-dark "></h1>
 </body>
 </html>
