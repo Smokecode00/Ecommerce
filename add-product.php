@@ -11,25 +11,25 @@ include 'navbar.php';
 <body>
     <div class="container mt-4">
         <div class="card bg-secondary bg-opacity-50">
-            <h1 class="text-center p-0 m-0">Add you Product</h1>
+            <h1 class="text-center p-0 my-3">Add your product</h1>
             <hr>
-            <div class="card-body m-5">
+            <div class="card-body m-4">
             <div class="row">
                 <div class="col-lg-6 mt-0">
                     <label for="" class="form-label fw-semibold ">Product Name:</label>
-                    <input type="text" class="form-control" name="pname" placeholder="What is your product?" required>
+                    <input type="text" class="form-control fw-semibold" name="pname" placeholder="What is your product?" required>
                 </div>
                 <div class="col-lg-6 mt-0">
                     <label for="" class="form-label fw-semibold ">Product Description:</label>
-                    <input type="text" class="form-control" name="pdesc" placeholder="Describe your product" required>
+                    <input type="text" class="form-control fw-semibold" name="pdesc" placeholder="Describe your product" required>
                 </div>
                 <div class="col-lg-6 mt-5">
                     <label for="" class="form-label fw-semibold ">Product Price:</label>
-                    <input type="text" class="form-control" name="price" placeholder="Input the price" required>
+                    <input type="text" class="form-control fw-semibold" name="price" placeholder="Input the price" required>
                 </div>
                 <div class="col-lg-6 mt-5">
                     <label for="" class="form-label fw-semibold ">Product Image:</label>
-                    <input type="file" class="form-control" name="image" required>
+                    <input type="file" class="form-control fw-semibold" name="image" required>
                 </div>
                 <div class="col-lg-6 mt-5 p-3">
                     <div class="d-grid gap-2 ">
