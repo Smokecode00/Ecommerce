@@ -31,7 +31,7 @@
                         Setting
                     </a>
                     <ul class="dropdown-menu text-black">
-                        <li><a class="dropdown-item fw-semibold" href="#">Add Products</a></li>
+                        <li><a class="dropdown-item fw-semibold" href="add-product.php">Add Products</a></li>
                         <li><a class="dropdown-item fw-semibold" href="#">View Profile</a></li>
                         <li><a class="dropdown-item fw-semibold" href="#">Account</a></li>
                         <li>
