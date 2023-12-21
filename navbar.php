@@ -10,8 +10,21 @@
 <body>
     <nav class="navbar bg-secondary">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">ECOMMERCE</a>
-            
+            <a href="#" class="navbar-brand fw-semibold">ECOMMERCE</a>
+            <ul class="nav me-2">
+                <li class="nav-item">
+                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">My Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fw-semibold text-decoration-none text-black">Setting</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <!-- JS Bootstrap -->
