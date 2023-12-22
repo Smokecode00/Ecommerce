@@ -42,7 +42,7 @@ include 'navbar.php';
                         <td>3,000</td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td>3</td>
                         <td>Mouse</td>
                         <td>Wireless</td>
                         <td>2</td>
@@ -50,7 +50,7 @@ include 'navbar.php';
                         <td>3,000</td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td>4</td>
                         <td>Mouse</td>
                         <td>Wireless</td>
                         <td>2</td>
