@@ -14,28 +14,28 @@
  </head>
 
  <body>
-     <div class="container-fluid vh-100" style="background-color: khaki;">
+     <div class="container-fluid vh-100 bg-secondary ">
          <div class="container py-5 h-100">
              <div class="row d-flex justify-content-center align-items-center h-100">
                  <div class="col col-xl-10">
                      <div class="card" style="border-radius: 1rem;">
                          <div class="row g-0">
                              <div class="col-md-6 col-lg-5 d-none d-md-block">
-                                 <img src="Images/bg1.jpg" alt="login form" class="img-fluid mt-0 ms-0 border-2" style="border-radius:1rem;" />
+                                 <img src="Img/logo.jpg" alt="login form" class="img-fluid mt-0 ms-0 border-2" />
                              </div>
                              <div class="col-md-6 col-lg-7 d-flex align-items-center">
                                  <div class="card-body p-4 p-lg-5 text-black">
 
                                      <form action="" method="post">
                                          <div class="d-flex align-items-center mb-3 pb-1">
-                                             <img src="Images/logo.png" alt="logo" width="50" height="50">
+                                             <img src="Img/logo.jpg" alt="logo" width="70" height="70" style="border-radius: 50%;">
                                              <span class="h1 fw-bold mb-0">My Shop</span>
                                          </div>
 
                                          <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
 
                                          <div class="form-outline mb-0">
-                                             <input type="text" id="usernameemail" name="usernameemail" class="form-control form-control-lg" />
+                                             <input type="text" id="usernameemail" name="usernameemail" class="form-control form-control-lg text-black fw-normal" />
                                              <label class="form-label" for="usernameemail">Username or Email</label>
                                          </div>
                                          <!-- <?php
@@ -46,8 +46,8 @@
                                                 };
                                                 ?> -->
 
-                                         <div class="form-outline mb-0 mt-3">
-                                             <input type="password" id="password" name="password" class="form-control form-control-lg" />
+                                         <div class="form-outline mb-0 mt-4">
+                                             <input type="password" id="password" name="password" class="form-control form-control-lg text-black" />
                                              <label class="form-label" for="password">Password</label>
                                          </div>
                                          <!-- <?php
@@ -59,10 +59,10 @@
                                                 ?> -->
 
                                          <div class="pt-1 mb-4 mt-4">
-                                             <input type="submit" name="submit" value="Login" class="btn btn-dark btn-lg btn-block">
+                                             <input type="submit" name="submit" value="Login" class="btn btn-primary fw-semibold btn-lg btn-block rounded-5">
                                          </div>
 
-                                         <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="register.php" style="color: #393f81;">Register here</a></p>
+                                         <p class="mb-5 pb-lg-2 text-black">Don't have an account? <a href="register.php" class="text-primary">Register here</a></p>
                                      </form>
 
                                  </div>
