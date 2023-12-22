@@ -39,6 +39,14 @@ include 'navbar.php';
                         <td>1,500</td>
                         <td>3,000</td>
                     </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Mouse</td>
+                        <td>Wireless</td>
+                        <td>2</td>
+                        <td>1,500</td>
+                        <td>3,000</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
