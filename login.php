@@ -56,8 +56,8 @@ if (isset($_POST['submit'])) {
                                         <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
 
                                         <div class="form-outline mb-0">
-                                            <input type="text" id="usernameemail" name="usernameemail" class="form-control form-control-lg text-black fw-normal" />
-                                            <label class="form-label" for="usernameemail">Username or Email</label>
+                                            <input type="email" id="usernameemail" name="email" class="form-control form-control-lg text-black fw-normal" />
+                                            <label class="form-label" for="email">Email</label>
                                         </div>
                                         <?php
                                         if (isset($msg)) {
