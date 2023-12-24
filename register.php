@@ -37,14 +37,14 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <div class="container-fluid vh-100" style="background-color: khaki;">
+    <div class="container-fluid vh-100 bg-secondary bg-opacity-50 ">
         <div class="container py-1 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col col-xl-10">
                     <div class="card" style="border-radius: 1rem;">
                         <div class="row g-0">
                             <div class="col-md-6 col-lg-5 d-none d-md-block">
-                                <img src="Img/logo.jpg" alt="login form" class="img-fluid mt-3 ms-2" />
+                                <img src="Img/logo.jpg" alt="login form" class="img-fluid" />
                             </div>
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
                                 <div class="card-body p-4 p-lg-3 text-black">
@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
                                     <form action="" method="post">
                                         <div class="d-flex align-items-center mb-3 pb-1">
                                             <img src="Img/logo.jpg" alt="logo" width="50" height="50" style="border-radius: 50%;">
-                                            <span class="h1 fw-bold mb-0 ">CNHS</span>
+                                            <span class="h1 fw-bold mb-0 ">My Shop</span>
                                         </div>
 
                                         <h5 class="fw-normal mb-3 pb-1" style="letter-spacing: 1px;">Register your
@@ -98,10 +98,10 @@ if (isset($_POST['submit'])) {
                                         ?>
 
                                         <div class="pt-1 mb-3 mt-3">
-                                            <input type="submit" name="submit" value="Register" class="btn btn-dark btn-lg btn-block">
+                                            <input type="submit" name="submit" value="Register" class="btn btn-primary btn-lg btn-block">
                                         </div>
 
-                                        <p class="mb-0 pb-lg-2" style="color: #393f81;">Already have an account? <a href="index.php" style="color: #393f81;">Login here</a></p>
+                                        <p class="mb-0 pb-lg-2 text-black">Already have an account? <a href="index.php" class="text-primary">Login here</a></p>
                                     </form>
 
                                 </div>
