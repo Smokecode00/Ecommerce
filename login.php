@@ -59,25 +59,25 @@ if (isset($_POST['submit'])) {
                                             <input type="text" id="usernameemail" name="usernameemail" class="form-control form-control-lg text-black fw-normal" />
                                             <label class="form-label" for="usernameemail">Username or Email</label>
                                         </div>
-                                        <!-- <?php
-                                                if (isset($msg)) {
-                                                    foreach ($msg as $error) {
-                                                        echo '<span class="error-msg text-danger ms-2">' . $error . '</span>';
-                                                    };
-                                                };
-                                                ?> -->
+                                        <?php
+                                        if (isset($msg)) {
+                                            foreach ($msg as $error) {
+                                                echo '<span class="error-msg text-danger ms-2">' . $error . '</span>';
+                                            };
+                                        };
+                                        ?>
 
                                         <div class="form-outline mb-0 mt-4">
                                             <input type="password" id="password" name="password" class="form-control form-control-lg text-black" />
                                             <label class="form-label" for="password">Password</label>
                                         </div>
-                                        <!-- <?php
-                                                if (isset($msg)) {
-                                                    foreach ($msg as $error1) {
-                                                        echo '<span class="error-msg text-danger ms-2">' . $error1 . '</span>';
-                                                    };
-                                                };
-                                                ?> -->
+                                        <?php
+                                        if (isset($msg)) {
+                                            foreach ($msg as $error1) {
+                                                echo '<span class="error-msg text-danger ms-2">' . $error1 . '</span>';
+                                            };
+                                        };
+                                        ?>
 
                                         <div class="pt-1 mb-4 mt-4">
                                             <input type="submit" name="submit" value="Login" class="btn btn-primary fw-semibold btn-lg btn-block rounded-5">
