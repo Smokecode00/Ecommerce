@@ -1,7 +1,12 @@
 <?php
 include 'navbar.php';
-
+require 'Includes/conn.php';
 if (isset($_POST['submit'])) {
+    $pname = $_POST['pname'];
+    $pdesc = $_POST['pdesc'];
+    $price = $_POST['price'];
+    $image = $_POST['image'];
+    // $sql = "INSERT INTO uploadtbl VALUES"
 }
 ?>
 <!DOCTYPE html>
